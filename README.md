@@ -1,10 +1,15 @@
 # pika-chat-server
 This is a mini(very mini) chat server written in c.
 
-compile the server:
-    $ make clean
-	$ make
+# Install prerequisites:
+Install using apt:
+    $ sudo apt-get install libssl-dev
 
-compile the client:
+# compile the server:
+    $ make clean
+    $ make
+
+# compile the client:
     $ cd client
+    $ make clean
     $ make
