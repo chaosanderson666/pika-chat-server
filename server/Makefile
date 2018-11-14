@@ -11,6 +11,6 @@ ${TARGET} : ${OBJS}
 	${CC} -O -o ${TARGET} ${OBJS}
 	rm -f *.o
 
-.PHONY: c
-c:
+.PHONY: clean
+clean:
 	rm -f *.o ${TARGET}
