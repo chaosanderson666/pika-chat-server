@@ -2,7 +2,6 @@
 This is a mini(very mini) chat server written in c.
 
 # Install prerequisites:
-Install using apt:
     $ sudo apt-get install libssl-dev
 
 # compile the server:
