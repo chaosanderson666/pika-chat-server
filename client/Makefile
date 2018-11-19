@@ -1,5 +1,5 @@
 CC=cc
-TARGET=cli
+TARGET=piki
 
 SOURCES=$(wildcard *.c)
 OBJS=$(patsubst %.c,%.o,${SOURCES})
