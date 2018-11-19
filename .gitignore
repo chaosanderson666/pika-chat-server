@@ -1,3 +1,4 @@
 *.msg
 *.o
 *.log
+pika
